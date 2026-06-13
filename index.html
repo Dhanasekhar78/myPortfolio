@@ -1,0 +1,877 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dhanasekhar Gottam | Software Development Engineer</title>
+  <meta name="description"
+    content="Portfolio of Dhanasekhar Gottam — Java & Spring Boot Software Development Engineer with 2.6+ years of enterprise microservices and cloud solutions experience." />
+  <meta name="keywords"
+    content="Java Developer, Spring Boot, Microservices, REST API, Backend Engineer, Dhanasekhar Gottam, Lumen Technologies" />
+  <meta property="og:title" content="Dhanasekhar Gottam | Software Development Engineer" />
+  <meta property="og:description"
+    content="2.5+ years delivering enterprise Java & Spring Boot solutions at Lumen Technologies." />
+  <meta property="og:type" content="website" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=DM+Serif+Display&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- ===== NAVIGATION ===== -->
+  <nav id="navbar" class="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo" id="nav-logo">Dhanasekhar<span class="logo-dot">.</span></a>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#about" class="nav-link" data-section="about">About</a></li>
+        <li><a href="#experience" class="nav-link" data-section="experience">Experience</a></li>
+        <li><a href="#projects" class="nav-link" data-section="projects">Projects</a></li>
+        <li><a href="#skills" class="nav-link" data-section="skills">Skills</a></li>
+        <li><a href="#certifications" class="nav-link" data-section="certifications">Certifications</a></li>
+        <li><a href="#contact" class="nav-link nav-link-cta" data-section="contact">Contact</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <section id="home" class="hero">
+    <div class="hero-inner container">
+
+      <div class="hero-left">
+        <p class="hero-eyebrow">Software Development Engineer &middot; Java Developer</p>
+        <h1 class="hero-name">Dhanasekhar<br />Gottam</h1>
+        <p class="hero-bio">
+          <span class="dynamic-exp-years">2</span>+ years working with Java-based backend systems and automation
+          frameworks in enterprise telecom
+          at <strong>Lumen Technologies</strong>. Proficient in Spring Boot, microservices, RESTful APIs,
+          and CI/CD-integrated test automation.
+        </p>
+        <div class="hero-meta">
+          <span class="meta-item">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0118 0z" />
+              <circle cx="12" cy="10" r="3" />
+            </svg>
+            Nellore, Andhra Pradesh, India
+          </span>
+          <span class="meta-sep">&middot;</span>
+          <span class="meta-item status-available">
+            <span class="status-dot"></span>Open to Opportunities
+          </span>
+        </div>
+        <div class="hero-actions">
+          <a href="#contact" class="btn btn-primary" id="hero-contact-btn">Get In Touch</a>
+          <a href="#experience" class="btn btn-ghost" id="hero-work-btn">View Experience</a>
+          <a href="https://linkedin.com/in/dhanasekharg" target="_blank" rel="noopener" class="btn-icon"
+            id="hero-linkedin-btn" aria-label="LinkedIn">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6z" />
+              <rect x="2" y="9" width="4" height="12" />
+              <circle cx="4" cy="4" r="2" />
+            </svg>
+          </a>
+          <a href="https://github.com/Dhanasekhar78" target="_blank" rel="noopener" class="btn-icon"
+            id="hero-github-btn" aria-label="GitHub">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path
+                d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22" />
+            </svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-right">
+        <div class="hero-card">
+          <div class="avatar-frame">
+            <img src="assets/myphoto.jpeg" alt="Dhanasekhar Gottam" class="avatar-img" />
+          </div>
+          <div class="hero-stats-row">
+            <div class="hstat">
+              <span class="hstat-num" id="exp-stat-num" data-target="2">0</span><span class="hstat-unit">+</span>
+              <span class="hstat-label">Years Experience</span>
+            </div>
+            <div class="hstat-sep"></div>
+            <div class="hstat">
+              <span class="hstat-num" data-target="97">0</span><span class="hstat-unit">%</span>
+              <span class="hstat-label">ML Accuracy</span>
+            </div>
+            <div class="hstat-sep"></div>
+            <div class="hstat">
+              <span class="hstat-num" data-target="9">0</span><span class="hstat-unit">.0</span>
+              <span class="hstat-label">CGPA</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <a href="#about" class="scroll-cue" aria-label="Scroll down">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+        <path d="M12 5v14M5 12l7 7 7-7" />
+      </svg>
+    </a>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section id="about" class="section">
+    <div class="container">
+      <div class="section-label">About</div>
+      <div class="about-layout">
+        <div class="about-text reveal">
+          <h2 class="section-heading">Java developer with a strong<br />backend and automation focus.</h2>
+          <p>
+            I'm a Java-focused Software Development Engineer with <span class="dynamic-exp-years">2</span>+ years of
+            hands-on experience
+            working with enterprise-scale backend systems and automation frameworks in the telecom
+            domain at Lumen Technologies.
+          </p>
+          <p>
+            I have practical experience with Spring Boot microservices, RESTful APIs, API validation,
+            integration testing, and service-level troubleshooting — and I'm able to translate business
+            requirements into efficient, maintainable Java-based solutions.
+          </p>
+          <div class="about-info-grid">
+            <div class="about-info-item">
+              <div class="about-info-icon">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                  stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0 1 18 0z" />
+                  <circle cx="12" cy="10" r="3" />
+                </svg>
+              </div>
+              <div>
+                <span class="about-info-label">Location</span>
+                <span class="about-info-value">Nellore, Andhra Pradesh, India</span>
+              </div>
+            </div>
+            <div class="about-info-item">
+              <div class="about-info-icon">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                  stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <rect x="2" y="7" width="20" height="14" rx="2" ry="2" />
+                  <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16" />
+                </svg>
+              </div>
+              <div>
+                <span class="about-info-label">Current Role</span>
+                <span class="about-info-value">SDE — Lumen Technologies India Pvt Ltd</span>
+              </div>
+            </div>
+            <div class="about-info-item">
+              <div class="about-info-icon">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                  stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M22 10v6M2 10l10-5 10 5-10 5z" />
+                  <path d="M6 12v5c0 2 2 3 6 3s6-1 6-3v-5" />
+                </svg>
+              </div>
+              <div>
+                <span class="about-info-label">Education</span>
+                <span class="about-info-value">B.Tech in ECE, NBKRIST — CGPA 9.0 (2019–2023)</span>
+              </div>
+            </div>
+            <a href="mailto:gottamdhanasekhar@gmail.com" class="about-info-item active-link">
+              <div class="about-info-icon">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                  stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+                  <polyline points="22,6 12,13 2,6" />
+                </svg>
+              </div>
+              <div>
+                <span class="about-info-label">Email</span>
+                <span class="about-info-value">gottamdhanasekhar@gmail.com</span>
+              </div>
+            </a>
+            <a href="https://linkedin.com/in/dhanasekharg" target="_blank" rel="noopener"
+              class="about-info-item active-link">
+              <div class="about-info-icon">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                  stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
+                  <rect x="2" y="9" width="4" height="12" />
+                  <circle cx="4" cy="4" r="2" />
+                </svg>
+              </div>
+              <div>
+                <span class="about-info-label">LinkedIn</span>
+                <span class="about-info-value">linkedin.com/in/dhanasekharg</span>
+              </div>
+            </a>
+            <a href="https://github.com/Dhanasekhar78" target="_blank" rel="noopener"
+              class="about-info-item active-link">
+              <div class="about-info-icon">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                  stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path
+                    d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22" />
+                </svg>
+              </div>
+              <div>
+                <span class="about-info-label">GitHub</span>
+                <span class="about-info-value">github.com/Dhanasekhar78</span>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="about-pillars reveal" style="--delay:0.15s">
+          <div class="pillar">
+            <div class="pillar-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                <rect x="2" y="3" width="20" height="14" rx="2" />
+                <path d="M8 21h8M12 17v4" />
+              </svg>
+            </div>
+            <div>
+              <h4>Java Backend Development</h4>
+              <p>Core Java, OOP, Spring Boot, Hibernate, JPA — supporting stable, performant service layers in
+                enterprise telecom applications.</p>
+            </div>
+          </div>
+          <div class="pillar">
+            <div class="pillar-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" />
+              </svg>
+            </div>
+            <div>
+              <h4>Microservices &amp; REST APIs</h4>
+              <p>Working with Spring Boot microservices and RESTful APIs — including API validation, integration
+                testing, and service-level troubleshooting.</p>
+            </div>
+          </div>
+          <div class="pillar">
+            <div class="pillar-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                <path d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
+              </svg>
+            </div>
+            <div>
+              <h4>Automation Frameworks</h4>
+              <p>Building end-to-end API automation using REST Assured, JUnit, and Cucumber (BDD) — integrated into
+                CI/CD pipelines to reduce regression cycles.</p>
+            </div>
+          </div>
+          <div class="pillar">
+            <div class="pillar-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                <path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2" />
+                <circle cx="9" cy="7" r="4" />
+                <path d="M23 21v-2a4 4 0 00-3-3.87" />
+                <path d="M16 3.13a4 4 0 010 7.75" />
+              </svg>
+            </div>
+            <div>
+              <h4>Agile Collaboration</h4>
+              <p>Working with cross-functional teams in agile environments to align technical delivery with product
+                goals.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== EXPERIENCE ===== -->
+  <section id="experience" class="section section-alt">
+    <div class="container">
+      <div class="section-label">Experience</div>
+      <h2 class="section-heading reveal">Work History</h2>
+
+      <!-- Achievement Banner -->
+      <div class="achievement-banner reveal" style="--delay:0.05s">
+        <div class="ach-item">
+          <div class="ach-icon blue">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#818cf8" stroke-width="2">
+              <path d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
+            </svg>
+          </div>
+          <div>
+            <div class="ach-num">Full-Stack</div>
+            <div class="ach-desc">Vue.js + Spring Boot internal tool</div>
+          </div>
+        </div>
+        <div class="ach-item">
+          <div class="ach-icon gold">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#f59e0b" stroke-width="2">
+              <polyline points="22 12 18 12 15 21 9 3 6 12 2 12" />
+            </svg>
+          </div>
+          <div>
+            <div class="ach-num">CI/CD</div>
+            <div class="ach-desc">Automation cutting regression cycles</div>
+          </div>
+        </div>
+        <div class="ach-item">
+          <div class="ach-icon green">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2">
+              <path d="M22 11.08V12a10 10 0 11-5.93-9.14" />
+              <polyline points="22 4 12 14.01 9 11.01" />
+            </svg>
+          </div>
+          <div>
+            <div class="ach-num">9.0 CGPA</div>
+            <div class="ach-desc">B.Tech ECE — NBKRIST, 2023</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="exp-block reveal" style="--delay:0.1s">
+        <div class="exp-meta">
+          <div class="exp-company-logo">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <rect x="2" y="7" width="20" height="14" rx="2" ry="2" />
+              <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16" />
+            </svg>
+          </div>
+          <div>
+            <h3 class="exp-role">Software Development Engineer — Java Developer</h3>
+            <p class="exp-org">Lumen Technologies India Pvt Ltd</p>
+            <p class="exp-period">Nov 2023 – Present &nbsp;&middot;&nbsp; <span class="dynamic-exp-years">2</span>+
+              years</p>
+          </div>
+        </div>
+
+        <div class="exp-projects">
+
+          <!-- Project 1 -->
+          <div class="exp-project-block">
+            <h4 class="exp-project-title">Enterprise Cloud Voice — Ordering &amp; Provisioning System</h4>
+            <ul class="exp-list">
+              <li class="feat-bullet">
+                <span class="feat-label">Full-Stack Dev</span>
+                <strong>Developed an internal order management tool</strong> using Vue.js (frontend) and Spring Boot
+                (backend) that enabled the team to submit and process enterprise orders in a single click —
+                significantly reducing manual effort and turnaround time.
+              </li>
+              <li class="feat-bullet">
+                <span class="feat-label">AI &amp; Automation</span>
+                <strong>Integrated GitHub Copilot &amp; Webhooks</strong> to automate project development, streamline
+                pull request (PR) reviews, and configure automated PR generation pipelines triggered by GitHub webhooks.
+              </li>
+              <li>Worked extensively with Java-based backend systems and microservices supporting enterprise ordering,
+                provisioning, and billing workflows.</li>
+              <li>Designed and developed automation frameworks using Java, REST Assured, JUnit, and Cucumber to validate
+                RESTful APIs built on Spring Boot.</li>
+              <li>Implemented end-to-end API automation for critical workflows, reducing regression cycles and improving
+                deployment confidence.</li>
+              <li>Executed SQL query optimisation in Oracle for critical data processing; proactively refactored backend
+                modules to enhance system performance and maintainability.</li>
+              <li>Collaborated with backend and product teams to analyse business requirements and translate them into
+                efficient, maintainable Java-based solutions.</li>
+            </ul>
+            <div class="tag-row">
+              <span class="tag">Java</span>
+              <span class="tag">Spring Boot</span>
+              <span class="tag">Vue.js</span>
+              <span class="tag">GitHub Copilot</span>
+              <span class="tag">AI Workflows</span>
+              <span class="tag">GitHub Webhooks</span>
+              <span class="tag">Microservices</span>
+              <span class="tag">REST Assured</span>
+              <span class="tag">JUnit</span>
+              <span class="tag">Cucumber</span>
+              <span class="tag">BDD</span>
+              <span class="tag">Oracle SQL</span>
+              <span class="tag">Jenkins</span>
+            </div>
+          </div>
+
+          <!-- Project 2 -->
+          <div class="exp-project-block">
+            <h4 class="exp-project-title">Enhanced Toll Free Interface</h4>
+            <ul class="exp-list">
+              <li>Worked with Java Microservices supporting critical toll-free number configuration features,
+                contributing to high availability for customer-facing operations.</li>
+              <li>Supported validation logic within service layers to maintain data integrity and consistency across
+                multiple interconnected telecom services.</li>
+              <li>Involved in the full feature lifecycle — including testing, deployment support, monitoring, and
+                maintenance — across test and production environments.</li>
+              <li>Collaborated with front-end teams and product managers to ensure backend logic met user experience
+                requirements for toll-free number configuration.</li>
+            </ul>
+            <div class="tag-row">
+              <span class="tag">Java</span>
+              <span class="tag">Microservices</span>
+              <span class="tag">Hibernate</span>
+              <span class="tag">JPA</span>
+              <span class="tag">REST Assured</span>
+              <span class="tag">Docker</span>
+              <span class="tag">Apache Kafka</span>
+              <span class="tag">Kibana</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROJECTS ===== -->
+  <section id="projects" class="section">
+    <div class="container">
+      <div class="section-label">Projects</div>
+      <h2 class="section-heading reveal">Personal Work</h2>
+
+      <div class="projects-grid">
+
+        <div class="project-card reveal" id="project-flight">
+          <div class="project-card-top">
+            <div class="project-index">01</div>
+            <a href="https://github.com/Dhanasekhar78" target="_blank" rel="noopener" class="project-gh-link"
+              aria-label="View on GitHub">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path
+                  d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22" />
+              </svg>
+            </a>
+          </div>
+          <h3 class="project-title">Flight Management System</h3>
+          <p class="project-desc">A full-featured backend system built with Spring Boot and REST APIs to manage flight
+            booking, scheduling, and inventory operations. Demonstrates production-grade service design with layered
+            architecture.</p>
+          <div class="project-stack">
+            <span class="stack-item">Java</span>
+            <span class="stack-item">Spring Boot</span>
+            <span class="stack-item">REST API</span>
+            <span class="stack-item">SQL</span>
+            <span class="stack-item">Hibernate</span>
+          </div>
+        </div>
+
+        <div class="project-card reveal" id="project-phishing" style="--delay:0.12s">
+          <div class="project-card-top">
+            <div class="project-index">02</div>
+            <a href="https://github.com/Dhanasekhar78" target="_blank" rel="noopener" class="project-gh-link"
+              aria-label="View on GitHub">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path
+                  d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22" />
+              </svg>
+            </a>
+          </div>
+          <h3 class="project-title">Phishing Website Detector</h3>
+          <p class="project-desc">Machine learning system using Gradient Boosting Classifier that identifies phishing
+            websites with <strong>97% accuracy</strong>. Deployed as an interactive web application using Flask,
+            providing real-time URL classification.</p>
+          <div class="project-stack">
+            <span class="stack-item">Python</span>
+            <span class="stack-item">Scikit-learn</span>
+            <span class="stack-item">Flask</span>
+            <span class="stack-item">Pandas</span>
+            <span class="stack-item">NumPy</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SKILLS ===== -->
+  <section id="skills" class="section section-alt">
+    <div class="container">
+      <div class="section-label">Skills</div>
+      <h2 class="section-heading reveal">Technical Expertise</h2>
+
+      <div class="skills-layout">
+
+        <div class="skills-col reveal">
+          <h3 class="skills-col-title">Core Technologies</h3>
+          <div class="skill-rows">
+            <div class="skill-row">
+              <div class="skill-row-info">
+                <span class="skill-row-name">Java &amp; OOP</span>
+                <span class="skill-row-pct">95%</span>
+              </div>
+              <div class="skill-track">
+                <div class="skill-bar-fill" data-width="95"></div>
+              </div>
+            </div>
+            <div class="skill-row">
+              <div class="skill-row-info">
+                <span class="skill-row-name">Spring Boot &amp; Spring Framework</span>
+                <span class="skill-row-pct">92%</span>
+              </div>
+              <div class="skill-track">
+                <div class="skill-bar-fill" data-width="92"></div>
+              </div>
+            </div>
+            <div class="skill-row">
+              <div class="skill-row-info">
+                <span class="skill-row-name">Microservices Architecture</span>
+                <span class="skill-row-pct">88%</span>
+              </div>
+              <div class="skill-track">
+                <div class="skill-bar-fill" data-width="88"></div>
+              </div>
+            </div>
+            <div class="skill-row">
+              <div class="skill-row-info">
+                <span class="skill-row-name">RESTful API Design</span>
+                <span class="skill-row-pct">92%</span>
+              </div>
+              <div class="skill-track">
+                <div class="skill-bar-fill" data-width="92"></div>
+              </div>
+            </div>
+            <div class="skill-row">
+              <div class="skill-row-info">
+                <span class="skill-row-name">SQL &amp; Oracle</span>
+                <span class="skill-row-pct">85%</span>
+              </div>
+              <div class="skill-track">
+                <div class="skill-bar-fill" data-width="85"></div>
+              </div>
+            </div>
+            <div class="skill-row">
+              <div class="skill-row-info">
+                <span class="skill-row-name">Hibernate &amp; JPA</span>
+                <span class="skill-row-pct">82%</span>
+              </div>
+              <div class="skill-track">
+                <div class="skill-bar-fill" data-width="82"></div>
+              </div>
+            </div>
+            <div class="skill-row">
+              <div class="skill-row-info">
+                <span class="skill-row-name">JUnit / REST Assured / Cucumber (BDD)</span>
+                <span class="skill-row-pct">85%</span>
+              </div>
+              <div class="skill-track">
+                <div class="skill-bar-fill" data-width="85"></div>
+              </div>
+            </div>
+            <div class="skill-row">
+              <div class="skill-row-info">
+                <span class="skill-row-name">JavaScript (Basics)</span>
+                <span class="skill-row-pct">55%</span>
+              </div>
+              <div class="skill-track">
+                <div class="skill-bar-fill" data-width="55"></div>
+              </div>
+            </div>
+            <div class="skill-row">
+              <div class="skill-row-info">
+                <span class="skill-row-name">Python &amp; Machine Learning</span>
+                <span class="skill-row-pct">75%</span>
+              </div>
+              <div class="skill-track">
+                <div class="skill-bar-fill" data-width="75"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="skills-col reveal" style="--delay:0.1s">
+          <h3 class="skills-col-title">System Design &amp; Architecture</h3>
+          <div class="tools-table">
+            <div class="tools-category">
+              <span class="tools-cat-label">Distributed Infrastructure</span>
+              <div class="tools-list">
+                <span class="tool-pill">Microservices Architecture</span>
+                <span class="tool-pill">API Gateway</span>
+                <span class="tool-pill">Service Discovery (Eureka)</span>
+                <span class="tool-pill">Load Balancing</span>
+                <span class="tool-pill">Horizontal Scaling</span>
+              </div>
+            </div>
+            <div class="tools-category">
+              <span class="tools-cat-label">Event-Driven &amp; Reliability</span>
+              <div class="tools-list">
+                <span class="tool-pill">Apache Kafka</span>
+                <span class="tool-pill">Circuit Breaker</span>
+                <span class="tool-pill">Saga Pattern</span>
+                <span class="tool-pill">Distributed Transactions</span>
+              </div>
+            </div>
+            <div class="tools-category">
+              <span class="tools-cat-label">Data, Security &amp; Ops</span>
+              <div class="tools-list">
+                <span class="tool-pill">Database Indexing</span>
+                <span class="tool-pill">Caching (Redis)</span>
+                <span class="tool-pill">Pagination</span>
+                <span class="tool-pill">JWT Authentication</span>
+                <span class="tool-pill">Logging &amp; Monitoring</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="skills-col reveal" style="--delay:0.2s">
+          <h3 class="skills-col-title">Tools &amp; Platforms</h3>
+          <div class="tools-table">
+            <div class="tools-category">
+              <span class="tools-cat-label">DevOps &amp; CI/CD</span>
+              <div class="tools-list">
+                <span class="tool-pill">Docker</span>
+                <span class="tool-pill">Jenkins</span>
+                <span class="tool-pill">Git</span>
+                <span class="tool-pill">Maven</span>
+                <span class="tool-pill">Kibana</span>
+              </div>
+            </div>
+            <div class="tools-category">
+              <span class="tools-cat-label">Cloud (AWS)</span>
+              <div class="tools-list">
+                <span class="tool-pill">S3</span>
+                <span class="tool-pill">EC2</span>
+                <span class="tool-pill">RDS</span>
+                <span class="tool-pill">IAM</span>
+              </div>
+            </div>
+            <div class="tools-category">
+              <span class="tools-cat-label">Messaging &amp; Integration</span>
+              <div class="tools-list">
+                <span class="tool-pill">Apache Kafka</span>
+                <span class="tool-pill">Azure Logic Apps</span>
+              </div>
+            </div>
+            <div class="tools-category">
+              <span class="tools-cat-label">AI &amp; Productivity</span>
+              <div class="tools-list">
+                <span class="tool-pill">GitHub Copilot</span>
+                <span class="tool-pill">GitHub Webhooks</span>
+                <span class="tool-pill">Automated PR Reviews</span>
+              </div>
+            </div>
+            <div class="tools-category">
+              <span class="tools-cat-label">Development</span>
+              <div class="tools-list">
+                <span class="tool-pill">Postman</span>
+                <span class="tool-pill">IntelliJ IDEA</span>
+                <span class="tool-pill">VS Code</span>
+                <span class="tool-pill">Jira</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CERTIFICATIONS ===== -->
+  <section id="certifications" class="section">
+    <div class="container">
+      <div class="section-label">Certifications</div>
+      <h2 class="section-heading reveal">Credentials</h2>
+      <div class="certs-grid">
+
+        <div class="cert-card reveal" id="cert-codechef">
+          <div class="cert-left">
+            <div class="cert-issuer-mark codechef">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="12" cy="8" r="7" />
+                <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88" />
+              </svg>
+            </div>
+          </div>
+          <div class="cert-body">
+            <h4>Java Programming</h4>
+            <p>CodeChef</p>
+          </div>
+          <div class="cert-right">
+            <span class="cert-badge">Certified</span>
+          </div>
+        </div>
+
+        <div class="cert-card reveal" id="cert-hackerrank" style="--delay:0.08s">
+          <div class="cert-left">
+            <div class="cert-issuer-mark hackerrank">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <ellipse cx="12" cy="5" rx="9" ry="3" />
+                <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5" />
+                <path d="M3 12c0 1.66 4 3 9 3s9-1.34 9-3" />
+              </svg>
+            </div>
+          </div>
+          <div class="cert-body">
+            <h4>SQL</h4>
+            <p>HackerRank</p>
+          </div>
+          <div class="cert-right">
+            <span class="cert-badge">Certified</span>
+          </div>
+        </div>
+
+        <div class="cert-card reveal" id="cert-lumen-basic" style="--delay:0.16s">
+          <div class="cert-left">
+            <div class="cert-issuer-mark lumen">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <rect x="4" y="4" width="16" height="16" rx="2" />
+                <rect x="9" y="9" width="6" height="6" />
+                <path d="M9 1v3M15 1v3M9 20v3M15 20v3M20 9h3M20 15h3M1 9h3M1 15h3" />
+              </svg>
+            </div>
+          </div>
+          <div class="cert-body">
+            <h4>AI Fundamentals</h4>
+            <p>Lumen Technologies</p>
+          </div>
+          <div class="cert-right">
+            <span class="cert-badge">Certified</span>
+          </div>
+        </div>
+
+        <div class="cert-card reveal" id="cert-lumen-inter" style="--delay:0.24s">
+          <div class="cert-left">
+            <div class="cert-issuer-mark lumen">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <rect x="4" y="4" width="16" height="16" rx="2" />
+                <rect x="9" y="9" width="6" height="6" />
+                <path d="M9 1v3M15 1v3M9 20v3M15 20v3M20 9h3M20 15h3M1 9h3M1 15h3" />
+              </svg>
+            </div>
+          </div>
+          <div class="cert-body">
+            <h4>AI Intermediate</h4>
+            <p>Lumen Technologies</p>
+          </div>
+          <div class="cert-right">
+            <span class="cert-badge">Certified</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section id="contact" class="section section-alt">
+    <div class="container">
+      <div class="section-label">Contact</div>
+      <div class="contact-layout">
+
+        <div class="contact-intro reveal">
+          <h2 class="section-heading">Let's work<br />together.</h2>
+          <p>I'm open to full-time opportunities, consulting, or simply a conversation about interesting engineering
+            challenges. Feel free to reach out via any of the channels below.</p>
+          <div class="contact-channels">
+            <a href="mailto:gottamdhanasekhar@gmail.com" class="channel-item" id="contact-email">
+              <div class="channel-icon">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+                  <polyline points="22,6 12,13 2,6" />
+                </svg>
+              </div>
+              <div>
+                <span class="channel-label">Email</span>
+                <span class="channel-value">gottamdhanasekhar@gmail.com</span>
+              </div>
+            </a>
+            <a href="https://linkedin.com/in/dhanasekharg" target="_blank" rel="noopener" class="channel-item"
+              id="contact-linkedin">
+              <div class="channel-icon">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6z" />
+                  <rect x="2" y="9" width="4" height="12" />
+                  <circle cx="4" cy="4" r="2" />
+                </svg>
+              </div>
+              <div>
+                <span class="channel-label">LinkedIn</span>
+                <span class="channel-value">linkedin.com/in/dhanasekharg</span>
+              </div>
+            </a>
+            <a href="https://github.com/Dhanasekhar78" target="_blank" rel="noopener" class="channel-item"
+              id="contact-github-link">
+              <div class="channel-icon">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path
+                    d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22" />
+                </svg>
+              </div>
+              <div>
+                <span class="channel-label">GitHub</span>
+                <span class="channel-value">github.com/Dhanasekhar78</span>
+              </div>
+            </a>
+            <a href="tel:+919603305013" class="channel-item" id="contact-phone">
+              <div class="channel-icon">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path
+                    d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.9 10.84a19.79 19.79 0 01-3.07-8.67A2 2 0 012.83 0h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L7.1 7.58a16 16 0 006.29 6.29l.95-.95a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z" />
+                </svg>
+              </div>
+              <div>
+                <span class="channel-label">Phone</span>
+                <span class="channel-value">+91 9603305013</span>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <div class="contact-cta-wrap reveal" style="--delay:0.15s">
+          <div class="contact-cta-card">
+            <h3 class="cta-title">Direct Connection</h3>
+            <p class="cta-text">
+              The fastest way to reach me is by connecting and messaging me on LinkedIn. I am active and usually reply
+              within a few hours.
+            </p>
+            <div class="cta-actions">
+              <a href="https://linkedin.com/in/dhanasekharg" target="_blank" rel="noopener"
+                class="btn btn-primary btn-full" id="contact-linkedin-btn">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                  stroke-linecap="round" stroke-linejoin="round" style="margin-right: 8px;" aria-hidden="true">
+                  <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
+                  <rect x="2" y="9" width="4" height="12" />
+                  <circle cx="4" cy="4" r="2" />
+                </svg>
+                Message on LinkedIn
+              </a>
+              <a href="mailto:gottamdhanasekhar@gmail.com" class="btn btn-ghost btn-full" id="contact-email-btn">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                  stroke-linecap="round" stroke-linejoin="round" style="margin-right: 8px;" aria-hidden="true">
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+                  <polyline points="22,6 12,13 2,6" />
+                </svg>
+                Send Direct Email
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <span class="footer-name">Dhanasekhar Gottam</span>
+        <span class="footer-copy">&copy; 2025 &middot; All rights reserved.</span>
+        <div class="footer-links">
+          <a href="mailto:gottamdhanasekhar@gmail.com" id="footer-email">Email</a>
+          <a href="https://linkedin.com/in/dhanasekharg" target="_blank" rel="noopener"
+            id="footer-linkedin">LinkedIn</a>
+          <a href="https://github.com/Dhanasekhar78" target="_blank" rel="noopener" id="footer-github">GitHub</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <button class="back-to-top" id="back-to-top" aria-label="Back to top">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <path d="M18 15l-6-6-6 6" />
+    </svg>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
